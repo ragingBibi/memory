@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu memory ENI</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+      <h1>ENI - MEMORY - Se connecter</h1>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <button><a href="index.html">Acceuil</a></button>
+          <button><a href="inscription.html">S'inscrire</a></button>
+          <button><a href="connexion.html">Se connecter</a></button>
+          <button><a href="profil.html">Profil</a></button>
+          <button><a href="jeu.html">Jouer</a></button>
+      </nav>
+      <main>
+        <form action="" method="get">
+            <label for="email">Entrez votre email</label>
+            <input type="text" name="email" id="email" placeholder="Votre email : exemple john@connor.fr" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" placeholder="Votre mot de passe" pattern="(?=.*\d)[A-Za-z!@#\$%\^\&*_=+-].{6,}">
+
+            <input type="submit" value="Se connecter" id="submit" name="submit">
+            <input type="reset" value="Annuler" id="reset" name="reset">
+        </form>
+      </main>
+</body>
+</html>
